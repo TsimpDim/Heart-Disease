@@ -129,3 +129,5 @@ linear/linear_model/trestbps/weights [[0.00055516]]
 linear/linear_model/trestbps/weights/part_0/Ftrl [[4.1273852e+11]]
 linear/linear_model/trestbps/weights/part_0/Ftrl_1 [[-7.1332506e+08]]
 ```
+
+![RMSE over Periods](/Figure_1.png?raw=true "RMSE over Periods")
