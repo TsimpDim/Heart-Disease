@@ -45,7 +45,7 @@ def train_linear_regressor_model(
     periods = 30
     steps_per_period = steps / periods
 
-    # Create a linear classifier object
+    # Create a linear regressor object
     optimizer = tf.train.FtrlOptimizer(learning_rate=learning_rate, l2_regularization_strength=l2_strength)
     linear_regressor = tf.estimator.LinearRegressor(
         feature_columns=construct_feature_columns(training_examples),
