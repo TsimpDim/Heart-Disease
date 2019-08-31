@@ -1,6 +1,6 @@
 ## Heart Disease
 
-Using examples from the [relevant Google course](https://developers.google.com/machine-learning/crash-course/ml-intro) `heart-disease.py` shows an effort to predict heart disease in patients using the [UCI Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease).
+Using examples from the [relevant Google course](https://developers.google.com/machine-learning/crash-course/ml-intro) `heart-disease.py` shows an effort to predict heart disease in patients using the [UCI Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) and [`Tensorflow`](https://www.tensorflow.org/).
 This repo should more or less be treated as an example of a ML algorithm not working :wink:
 
 ![?](https://i.kym-cdn.com/photos/images/newsfeed/000/234/765/b7e.jpg)
@@ -11,6 +11,7 @@ This example really doesn't have a lot going for itself, however it was a good f
 * The sample data (300) is really not enough for predictions of this sort
 * The features themselves are very specific and there is a lot of them
 * Model overfits
+* Should probably use higher-level interfaces like `keras`
 
 ### Example output
 ```
